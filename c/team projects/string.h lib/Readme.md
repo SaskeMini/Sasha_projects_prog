@@ -1,0 +1,1 @@
+You can use s21_string.h only as static library in your c-code

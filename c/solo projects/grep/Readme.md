@@ -1,0 +1,1 @@
+To use the programm write "make" on terminal, than use the util grep as "./s21_grep ..." 
