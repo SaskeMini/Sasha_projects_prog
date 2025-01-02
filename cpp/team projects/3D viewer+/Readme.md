@@ -1,0 +1,1 @@
+To launch Viewer of valumetric models, you can write "make" in terminal

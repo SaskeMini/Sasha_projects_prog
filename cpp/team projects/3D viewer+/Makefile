@@ -7,7 +7,7 @@ CFLAGS := -std=c++17 -Wall -Werror -Wextra
 PROJECT_NAME := CPP4_3DViewer_v2.0-1
 
 
-all: install
+all: install launch
 
 res:
 	mkdir -p $(RES_DIR)
@@ -27,6 +27,9 @@ install: uninstall s21_object.a
 ifeq ($(shell uname), Linux)
 	chmod 0700 /run/user/1000 
 endif
+
+launch:
+	cd install && ./s21_3d_viewer
 
 clean:
 	rm -rf $(DOC_DIR) $(RES_DIR) $(BUILD_DIR) *.o *.a s21_3d_viewer

@@ -1,0 +1,1 @@
+To play you can write "make" in terminal
